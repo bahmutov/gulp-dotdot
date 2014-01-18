@@ -1,10 +1,10 @@
 {
   "name": "gulp-dotdot",
   "version": "0.0.0",
-  "description": "Gulp plugin for transforming foo..bar(...) notation to foo.bar.bind(foo, ...) ",
+  "description": "Gulp plugin for transforming foo..bar(...) notation to foo.bar.bind(foo, ...)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node node_modules/gt test/test.js --output"
   },
   "repository": {
     "type": "git",
@@ -24,13 +24,15 @@
   },
   "homepage": "https://github.com/bahmutov/gulp-dotdot",
   "dependencies": {
-    "dotdot": "~0.1.2"
+    "dotdot": "~0.1.2",
+    "gulp-util": "~2.2.12"
   },
   "devDependencies": {
     "gulp": "~3.4.0",
     "jshint-stylish": "~0.1.5",
     "gulp-jshint": "~1.3.4",
     "event-stream": "~3.1.0",
-    "gt": "~0.8.29"
+    "gt": "~0.8.29",
+    "map-stream": "~0.1.0"
   }
 }
