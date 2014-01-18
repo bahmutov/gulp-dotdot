@@ -1,0 +1,26 @@
+{
+  "name": "gulp-dotdot",
+  "version": "0.0.0",
+  "description": "Gulp plugin for transforming foo..bar(...) notation to foo.bar.bind(foo, ...) ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bahmutov/gulp-dotdot.git"
+  },
+  "keywords": [
+    "gulp",
+    "plugin",
+    "dotdot",
+    "bind",
+    "transform"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/gulp-dotdot/issues"
+  },
+  "homepage": "https://github.com/bahmutov/gulp-dotdot"
+}
