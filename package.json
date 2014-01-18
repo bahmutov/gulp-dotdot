@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/bahmutov/gulp-dotdot/issues"
   },
-  "homepage": "https://github.com/bahmutov/gulp-dotdot"
+  "homepage": "https://github.com/bahmutov/gulp-dotdot",
+  "dependencies": {
+    "dotdot": "~0.1.2"
+  }
 }
