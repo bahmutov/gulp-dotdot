@@ -45,8 +45,8 @@ var printN = foo..print();
 
 ```js
 var gulp = require('gulp')
+var dotdot = require('gulp-dotdot');
 var jshint = require('gulp-jshint')
-var dotdot = require('../..');
 
 gulp.task('lint', function() {
   gulp.src('example.js')
